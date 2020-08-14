@@ -1,0 +1,71 @@
+#score {
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  background: green;
+  color: white;
+  padding: 1em;
+}
+
+#start_count {
+  margin-right: 1em;
+}
+
+#store_button {
+  margin-right: 20px;
+}
+
+tr {
+  transition: all 1s ease-out;
+}
+
+.hide {
+  height: 1px;
+  display: none;
+}
+
+table {
+  width: 100%;
+}
+
+tbody .word-item_close {
+  position: relative;
+}
+
+.bottom-panel {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.options-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.options-panel label {
+  width: 10em;
+}
+
+svg.icon {
+  width: 30px;
+  height: 30px;
+  fill: #ff5722;
+}
+
+svg.icon #help-rounded-button {
+  color: red;
+  background-color: green;
+}
+
+@media (max-width: 320px) {
+  table td {
+    width: 20%;
+  }
+
+  table td:first-child {
+    width: 10%;
+  }
+}
